@@ -3,15 +3,12 @@ Fuzzy Logic Design was used for the sensors, also Python to tune  the parameters
 # Automated-sorting-machine 
 
 # Installation
-Use the package manager pip to install
+Use the package manager pip to install on the raspberry pi:
 ```bash
 pip install skocketio
 ```
 ```bash
 pip install scikit-fuzzy
-```
-```bash
-pip install opencv-python
 ```
 ```bash
 pip install math smbus time
@@ -22,4 +19,14 @@ apt-get rpi.gpio
 You also have to download a git repo to be able to use the MPUs
 ```bash
 git clone https://github.com/rocheparadox/Kalman-Filter-Python-for-mpu6050.git
+```
+On your laptop you have to use the package manager to install:
+```bash
+pip install numpy
+```
+```bash
+pip install scikit-fuzzy
+```
+```bash
+pip install opencv-python
 ```
